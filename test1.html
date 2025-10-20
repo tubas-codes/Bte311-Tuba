@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Programcılığı Testi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    fieldset {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid purple;
+    }
+    legend {
+      color: purple;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Web Programcılığı Testi</h2>
+
+  <form action="" method="post">
+    <fieldset>
+      <legend>Kişisel Bilgiler</legend>
+      <label for="isim">Adınız:</label><br>
+      <input type="text" id="isim" name="isim"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Test Soruları</legend>
+
+      <p>1. HTML'in açılımı nedir?</p>
+      <input type="radio" name="q1" value="a"> Hyper Text Markup Language<br>
+      <input type="radio" name="q1" value="b"> Hyper Transfer Markup Logic<br>
+      <input type="radio" name="q1" value="c"> High Text Machine Language<br><br>
+
+      <p>2. CSS hangi amaçla kullanılır?</p>
+      <input type="checkbox" name="q2" value="stil"> Stil vermek<br>
+      <input type="checkbox" name="q2" value="islem"> İşlem yapmak<br>
+      <input type="checkbox" name="q2" value="veri"> Veri tabanı bağlantısı<br><br>
+
+      <p>3. Hangi dil tarayıcı tarafında çalışır?</p>
+      <select name="q3">
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+      </select><br><br>
+
+      <p>4. Görüşlerinizi yazın:</p>
+      <textarea name="yorum" rows="4" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Gönder">
+    </fieldset>
+  </form>
+</body>
+</html>
