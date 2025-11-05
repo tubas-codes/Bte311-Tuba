@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hafta 7 - CSS Animasyon Görevi</title>
+  <style>
+    
+    body {
+      background-color: #e6e6fa; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      height: 100vh;
+      margin: 0;
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: relative;
+    }
+
+    @keyframes yukariAsagi {
+      0% { top: 0px; }
+      50% { top: 40px; }
+      100% { top: 0px; }
+    }
+
+    @keyframes buyuKucul {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.4); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes renkDegis {
+      0% { background-color: #9370db; } /* Orta mor */
+      50% { background-color: #7fffd4; } /* Açık mavi-yeşil */
+      100% { background-color: #9370db; }
+    }
+
+    @keyframes saydamDegis {
+      0% { opacity: 1; }
+      50% { opacity: 0.4; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes sagaSola {
+      0% { left: 0px; }
+      50% { left: 40px; }
+      100% { left: 0px; }
+    }
+
+    .d1 {
+      background-color: #9370db;
+      animation: yukariAsagi 3s infinite;
+    }
+    .d2 {
+      background-color: #8a2be2;
+      animation: buyuKucul 3s infinite;
+    }
+    .d3 {
+      background-color: #6495ed;
+      animation: renkDegis 3s infinite;
+    }
+    .d4 {
+      background-color: #7b68ee;
+      animation: saydamDegis 3s infinite;
+    }
+    .d5 {
+      background-color: #4682b4;
+      animation: sagaSola 3s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="d1"></div>
+  <div class="d2"></div>
+  <div class="d3"></div>
+  <div class="d4"></div>
+  <div class="d5"></div>
+
+</body>
+</html>
