@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Görevi 2 - Mavi Mor Versiyon</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #e6e6fa; /* Açık mor tonunda arka plan */
+        }
+
+        .circle {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        /* 1. Top: yukarı-aşağı */
+        .jump {
+            background-color: #7b68ee; /* mor ton */
+            animation: jump 2.5s infinite ease-in-out alternate;
+        }
+
+        @keyframes jump {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-100px); }
+        }
+
+        /* 2. Top: büyüyüp küçülüyor */
+        .pulse {
+            background-color: #9370db; /* lavanta moru */
+            animation: pulse 3s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); background-color: #9370db; }
+            100% { transform: scale(1.5); background-color: #4169e1; }
+        }
+
+        /* 3. Top: sola-sağa hareket */
+        .slide {
+            background-color: #6a5acd; /* slate blue */
+            animation: slide 2s infinite alternate ease-in-out;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(100px); }
+        }
+
+        /* 4. Top: artık dönen top (önceden sondaki hareketi aldı) */
+        .rotate {
+            background-color: #483d8b; /* koyu mor */
+            animation: rotation 2.5s infinite linear;
+        }
+
+        @keyframes rotation {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* 5. Top: artık "spin-fade" efekti (öncekinden yer değiştirdi) */
+        .spin-fade {
+            background-color: #4169e1; /* royal blue */
+            animation: spinFade 2.5s infinite linear;
+        }
+
+        @keyframes spinFade {
+            0% { transform: rotate(0deg); opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { transform: rotate(360deg); opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="circle jump"></div>
+    <div class="circle pulse"></div>
+    <div class="circle slide"></div>
+    <div class="circle rotate"></div>
+    <div class="circle spin-fade"></div>
+
+</body>
+</html>
