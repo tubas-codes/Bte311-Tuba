@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hafta 8 - Lab Görevi 2 (Renk Bilgi Kartları)</title>
+  <title>Hafta 8 - Lab Görevi 2 (Bağlantılı PNG Renk Kartları)</title>
 
   <!-- Bootstrap CSS -->
   <link
@@ -13,7 +13,7 @@
 
   <style>
     body {
-      background-color: #E6E6FA; /* lavanta arka plan */
+      background-color: #E6E6FA; /* Lavanta arka plan */
       font-family: 'Segoe UI', sans-serif;
     }
 
@@ -38,12 +38,6 @@
       transform: translateY(-6px);
     }
 
-    .color-box {
-      width: 100%;
-      height: 100px;
-      border-radius: 10px 10px 0 0;
-    }
-
     .card-body {
       padding: 15px;
     }
@@ -51,11 +45,18 @@
     .color-name {
       font-weight: bold;
       color: #4B0082;
+      margin-bottom: 0;
     }
 
     .color-code {
       color: #555;
       font-size: 0.9em;
+    }
+
+    img {
+      border-radius: 15px 15px 0 0;
+      height: 100px;
+      object-fit: cover;
     }
   </style>
 </head>
@@ -75,7 +76,7 @@
       <!-- Kart 1 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #E6E6FA;"></div>
+          <img src="https://padananwarna.com/wp-content/uploads/2024/09/Apa-Maksud-Warna-Light-Purple.png" alt="Lavanta">
           <div class="card-body">
             <p class="color-name">Lavanta</p>
             <p class="color-code">#E6E6FA</p>
@@ -86,7 +87,7 @@
       <!-- Kart 2 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #ADD8E6;"></div>
+          <img src="https://www.colorhexa.com/add8e6.png" alt="Açık Mavi">
           <div class="card-body">
             <p class="color-name">Açık Mavi</p>
             <p class="color-code">#ADD8E6</p>
@@ -97,7 +98,7 @@
       <!-- Kart 3 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #9370DB;"></div>
+          <img src="https://www.colorhexa.com/9370db.png" alt="Orta Mor">
           <div class="card-body">
             <p class="color-name">Orta Mor</p>
             <p class="color-code">#9370DB</p>
@@ -108,7 +109,7 @@
       <!-- Kart 4 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #5F9EA0;"></div>
+          <img src="https://www.colorhexa.com/5f9ea0.png" alt="Mavi Gri">
           <div class="card-body">
             <p class="color-name">Mavi Gri</p>
             <p class="color-code">#5F9EA0</p>
@@ -119,7 +120,7 @@
       <!-- Kart 5 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #B0C4DE;"></div>
+          <img src="https://www.colorhexa.com/b0c4de.png" alt="Açık Çelik Mavi">
           <div class="card-body">
             <p class="color-name">Açık Çelik Mavi</p>
             <p class="color-code">#B0C4DE</p>
@@ -130,7 +131,7 @@
       <!-- Kart 6 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #C3B1E1;"></div>
+          <img src="https://www.colorhexa.com/c3b1e1.png" alt="Açık Leylak">
           <div class="card-body">
             <p class="color-name">Açık Leylak</p>
             <p class="color-code">#C3B1E1</p>
@@ -141,7 +142,7 @@
       <!-- Kart 7 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #D8BFD8;"></div>
+          <img src="https://www.colorhexa.com/d8bfd8.png" alt="Thistle">
           <div class="card-body">
             <p class="color-name">Thistle</p>
             <p class="color-code">#D8BFD8</p>
@@ -152,7 +153,7 @@
       <!-- Kart 8 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #DDA0DD;"></div>
+          <img src="https://www.colorhexa.com/dda0dd.png" alt="Erik">
           <div class="card-body">
             <p class="color-name">Erik</p>
             <p class="color-code">#DDA0DD</p>
@@ -163,7 +164,7 @@
       <!-- Kart 9 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #BA55D3;"></div>
+          <img src="https://encycolorpedia.com.tr/ba55d3.png" alt="Orkide">
           <div class="card-body">
             <p class="color-name">Orkide</p>
             <p class="color-code">#BA55D3</p>
@@ -174,7 +175,7 @@
       <!-- Kart 10 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #7B68EE;"></div>
+          <img src="https://www.colorhexa.com/7b68ee.png" alt="Orta Slate Mavi">
           <div class="card-body">
             <p class="color-name">Orta Slate Mavi</p>
             <p class="color-code">#7B68EE</p>
@@ -185,7 +186,7 @@
       <!-- Kart 11 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #6A5ACD;"></div>
+          <img src="https://www.colorhexa.com/6a5acd.png" alt="Slate Mavi">
           <div class="card-body">
             <p class="color-name">Slate Mavi</p>
             <p class="color-code">#6A5ACD</p>
@@ -196,7 +197,7 @@
       <!-- Kart 12 -->
       <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
         <div class="card">
-          <div class="color-box" style="background-color: #4B0082;"></div>
+          <img src="https://encycolorpedia.com.tr/4b0082.png" alt="İndigo">
           <div class="card-body">
             <p class="color-name">İndigo</p>
             <p class="color-code">#4B0082</p>
