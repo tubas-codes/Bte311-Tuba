@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Venn şemasını tutan alan */
+.venn {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+/* Ortak daire özellikleri */
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.6;
+}
+
+/* Dairelerin konumları */
+.red {
+  background-color: orange;
+  top: 0;
+  left: 60px;
+}
+
+.blue {
+  background-color: blue;
+  top: 0;
+  left: 160px;
+}
+
+.yellow {
+  background-color: yellow;
+  top: 80px;
+  left: 110px;
+}

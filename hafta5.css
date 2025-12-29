@@ -13,21 +13,3 @@ table.external th, table.external td {
 table.external th {
   background-color: #ffcc80;
 }
-
-/* Daireler */
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 10px;
-}
-.red {
-  background-color: red;
-}
-.blue {
-  background-color: blue;
-}
-.green {
-  background-color: green;
-}
