@@ -1,9 +1,9 @@
-🌦️ React Hava Durumu Uygulaması
+## React Hava Durumu Uygulaması
 Bu proje, React kullanılarak açık bir API’den veri çekip kullanıcıya dinamik olarak sunan bir web uygulamasıdır.
 Kullanıcıdan alınan şehir bilgisine göre hava durumu verileri görüntülenmektedir.
 
 
-🔗 Kullanılan API
+## Kullanılan API
 GoWeather API
   API Linki:
   https://goweather.herokuapp.com/weather/{city}
@@ -11,7 +11,7 @@ GoWeather API
 API anahtar gerektirmeyen, açık ve ücretsiz bir hava durumu API’sidir.
 
 
-🧩 Proje Yapısı
+## Proje Yapısı
   Header
   Sayfa başlığı ve kısa açıklama
 
@@ -22,7 +22,7 @@ API anahtar gerektirmeyen, açık ve ücretsiz bir hava durumu API’sidir.
   Basit telif bilgisi
 
 
-⚙️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
   React
   JavaScript
   Fetch API
@@ -30,7 +30,7 @@ API anahtar gerektirmeyen, açık ve ücretsiz bir hava durumu API’sidir.
   CSS
 
 
-## 📸 Uygulama Ekran Görüntüleri
+## Uygulama Ekran Görüntüleri
 
 ### Ana Sayfa
 ![Ana Sayfa](./ana_sayfa.png)
@@ -55,12 +55,14 @@ API anahtar gerektirmeyen, açık ve ücretsiz bir hava durumu API’sidir.
 
 
 
-## ▶️ Projenin Çalıştırılması
+## Projenin Çalıştırılması
 1. Bu projeyi bilgisayarınıza klonlayın:
-git clone https://github.com/kullaniciadi/final-odevi.git
+git clone https://github.com/tubas-codes/Bte311-Tuba.git
 2. Proje klasörüne girin:
 cd final-odevi
 3. Gerekli paketleri yükleyin:
 npm install
+4. Uygulamayı başlatın:
+npm start
 5. Tarayıcıda aşağıdaki adresten uygulamayı görüntüleyin:
 http://localhost:3000
