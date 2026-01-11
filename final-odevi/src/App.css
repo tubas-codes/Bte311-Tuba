@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sayfa geneli */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s ease;
+}
+
+/* Hava durumuna göre arka plan */
+.sunny {
+  background: linear-gradient(to right, #fbc531, #f6e58d);
+}
+
+.cloudy {
+  background: linear-gradient(to right, #dcdde1, #7f8fa6);
+}
+
+.rainy {
+  background: linear-gradient(to right, #74b9ff, #0984e3);
+}
+
+.snowy {
+  background: linear-gradient(to right, #ecf0f1, #bdc3c7);
+}
+
+.weather-box {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 18px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* Header */
+header h1 {
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+header h1 {
+  white-space: nowrap;
+}
+
+header p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Input */
+input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #5a4bdc;
+}
+
+/* Sonuçlar */
+h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #2d3436;
+}
+
+p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f2f6;
+  border-radius: 10px;
+}
+
+/* SONUÇ KARTI */
+.result-card {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 16px;
+  color: #fff;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.6s ease;
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* DURUMA GÖRE KART RENKLERİ */
+.card-sunny {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.card-rainy {
+  background: linear-gradient(135deg, #667db6, #0082c8);
+}
+
+.card-snowy {
+  background: linear-gradient(135deg, #83a4d4, #b6fbff);
+}
+
+.card-cloudy {
+  background: linear-gradient(135deg, #757f9a, #d7dde8);
+}
+
+/* YAZILAR */
+.error {
+  color: #ff4d4d;
+  margin-top: 10px;
+}
+
+.info {
+  color: #333;
+  margin-top: 10px;
+}
+
+/* ANİMASYON */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 16px;
+
+  color: white;
+  transition: background 0.4s ease;
+}
+
+/* 🔹 DURUMA GÖRE RENKLER */
+.result-box.sunny {
+  background: linear-gradient(135deg, #fbc531, #e1b12c);
+}
+
+.result-box.rainy {
+  background: linear-gradient(135deg, #487eb0, #40739e);
+}
+
+.result-box.snowy {
+  background: linear-gradient(135deg, #dcdde1, #7f8fa6);
+  color: #2f3640;
+}
+
+.result-box.cloudy {
+  background: linear-gradient(135deg, #718093, #596275);
+}
+
+/* METİN */
+.text-area {
+  text-align: left;
+}
+.result-box h2 {
+  white-space: nowrap;
+}
+.result-box h2 {
+  color: #2c3e50;   
+}
+
+/* İKON */
+.weather-icon {
+  font-size: 80px;
+}
+
